@@ -1,4 +1,4 @@
-setwd("/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/GitHub/Dev_style")
+#setwd("/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/GitHub/Dev_style")
 ##############################
 # Chunk code: set library
 #############################
@@ -14,7 +14,7 @@ set.seed(123)
 # Chunk code: path
 ##############################
 
-set_cmdstan_path("/Users/afrenisterrantino/.cmdstan/cmdstan-2.36.0")
+# set_cmdstan_path("./cmdstan/cmdstan-2.36.0")
 
 ##############################
 # Chunk code:  simulate data
