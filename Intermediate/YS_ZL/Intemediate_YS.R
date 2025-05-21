@@ -1,4 +1,5 @@
-setwd("/Users/afrenisterrantino/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/ImperialCollege/STAN/YS_Example/Intermediate/YS_ZL")
+#setwd("/Users/afrenisterrantino/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/ImperialCollege/STAN/YS_Example/Intermediate/YS_ZL")
+
 ##############################
 # Chunk code: set library
 #############################
@@ -6,7 +7,8 @@ library(cmdstanr)
 library(posterior)
 library(ggplot2)
 library(gridExtra)
-set_cmdstan_path("/Users/afrenisterrantino/.cmdstan/cmdstan-2.36.0")
+
+#set_cmdstan_path("./cmdstan/cmdstan-2.36.0")
 
 
 ##############################
