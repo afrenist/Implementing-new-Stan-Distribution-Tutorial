@@ -1,5 +1,5 @@
 #setwd('/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/YS_Example/Basic_stan')
-setwd("/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/GitHub/Basic_stan")
+#setwd("/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/GitHub/Basic_stan")
 
 library(here)
 
