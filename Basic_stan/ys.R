@@ -1,4 +1,4 @@
-setwd('/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/YS_Example/Basic_stan')
+setwd('/Users/or105/git/Implementing-new-Stan-Distribution-Tutorial/Basic_stan')
 ##############################
 # Chunk code:  libraries
 #############################
@@ -9,14 +9,16 @@ library(ggplot2)
 library(gridExtra)
 library(bayesplot)
 theme_set(bayesplot::theme_default(base_family = "sans"))
-set.seed(123)
+set.seed(42)
 
 
 ##############################
 # Chunk code: setting the cmdstan path
 #############################
 
-set_cmdstan_path("/Users/afrenisterrantino/.cmdstan/cmdstan-2.36.0")
+# be sure you know what cmdstan version we are working with/on
+# use to find the path: cmdstan_path()
+set_cmdstan_path("/Users/or105/.cmdstan/cmdstan-2.36.0")
 
 
 ##############################
