@@ -1,11 +1,13 @@
 #setwd("/Users/afrenisterrantino/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/ImperialCollege/STAN/YS_Example/Intermediate/Bernoulli/")
-setwd("/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/GitHub/Intermediate/Bernoulli/")
+#setwd("/Users/afrenisterrantino/OneDrive - The Alan Turing Institute/ImperialCollege/STAN/GitHub/Intermediate/Bernoulli/")
 ##############################
 # Chunk code: set library
 #############################
 library(cmdstanr)
-set_cmdstan_path("/Users/afrenisterrantino/.cmdstan/cmdstan-2.36.0")
 
+#set_cmdstan_path("/Users/afrenisterrantino/.cmdstan/cmdstan-2.36.0")
+
+### set_cmdstan_path()
 ##############################
 # Chunk code:  model 
 #############################
